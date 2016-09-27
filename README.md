@@ -1,2 +1,2 @@
 # SOLID_Reaction
-Reacts with Django, and other cool UI Visionary Features. 
+React with Django.  This is not a working dir, but is the begining of a dir that I'm putting together from other projects.  It will be SPA, with a RESTful backend.  You can check out http://brandedsolid.com as this project will be handling my portfolio items with a personally conceptualized and designed masonry grid.  Designing heavly with the z-index to create a more 3d immersive User Experience. 
