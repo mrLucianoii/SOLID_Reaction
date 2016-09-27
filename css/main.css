@@ -1,0 +1,123 @@
+.section {
+    background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 44, 44, 1) 0%, rgba(2, 2, 2, 1) 100%);
+    background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 44, 44, 1) 0%, rgba(2, 2, 2, 1) 100%);
+    background : -webkit-gradient(radial,50% 50% ,0 , 50% 50%, 590.36 ,color-stop(0,rgba(44, 44, 44, 1) ),color-stop(1,rgba(2, 2, 2, 1) ));
+    background : -o-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 44, 44, 1) 0%, rgba(2, 2, 2, 1) 100%);
+    background : -ms-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 44, 44, 1) 0%, rgba(2, 2, 2, 1) 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Stlye=2);"
+    background : radial-gradient(50% 50%, circle farthest-corner, rgba(44, 44, 44, 1) 0%, rgba(2, 2, 2, 1) 100%);
+    border-style : Solid;
+    border-color : #000000;
+    border-color : rgba(0, 0, 0, 1);
+    border-width : 1px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Stlye=2);
+
+}
+/* Solid React ATOM */
+
+.sd_atom {
+    position: absolute;
+    top: 149px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    perspective: 800px;
+}
+
+.inner {
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;  
+}
+
+.inner.one {
+    left: 0%;
+    top: 0%;
+    animation: rotate-one 1s linear infinite;
+    border-bottom: 3px solid red;
+}
+
+.inner.two {
+    right: 0%;
+    top: 0%;
+    animation: rotate-two 1s linear infinite;
+    border-right: 3px solid blue;
+}
+
+.inner.three {
+    right: 0%;
+    bottom: 0%;
+    animation: rotate-three 1s linear infinite;
+    border-top: 3px solid #EFEFFA;
+}
+
+    .nucleus {
+    border: 3px solid transparent;
+    border-style: solid;
+    -webkit-border-image: 
+    -webkit-gradient(from(red), to(rgba(0, 0, 0, 0))) 100%;
+    -webkit-border-image: 
+    -webkit-linear-gradient(red, rgba(0, 0, 0, 0)) 100%;
+    -moz-border-image:
+    -moz-linear-gradient(red, rgba(0, 0, 0, 0)) 100%;    
+    -o-border-image:
+    -o-linear-gradient(red, rgba(0, 0, 0, 0)) 100%;
+    border-image:
+    linear-gradient( red, rgba(0, 0, 0, 0))  100%;
+
+    width: 149px;
+    height: 149px;
+    top: 0;
+    left: 0;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+
+}
+
+@keyframes rotate-one {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-two {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
+@keyframes rotate-three {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+
+
+#sd_table {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
