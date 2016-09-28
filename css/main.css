@@ -1,3 +1,209 @@
+
+
+
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   /* background-color: #020202; */
+   
+}
+p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 19px;
+    
+}
+a{
+    text-decoration:none;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+    font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+#masterG {
+    position: fixed;
+    width: 73px;
+    right: 37px;
+    bottom: 9px;
+    z-index: 13;
+}
+a #masterG{
+    cursor: pointer;
+  
+}
+
+/* global CSS
+ * --------------------------------------- */
+#fullpage{
+    font-family: arial,helvetica;
+    background-image: url("../img/body-bg.jpg");
+    position: relative;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border:solid 2px #020202;
+    color: #fff;
+}
+#fullpage {
+    overflow-x: hidden;
+}
+h1{
+    font-size: 6em;
+}
+p{
+    font-size: 2em;
+}
+button {
+    font-size: 21px;
+    width: 150.763px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: #cccccc;
+}
+.container {
+    width: 100%;
+    padding-right: 55px;
+    padding-left: 55px;
+}
+
+.navbarSD {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 119.5px;
+    padding-top: 47px;
+    display: inline-block;
+    z-index: 7;
+    background-color: transparent;
+} 
+.navbarSD ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 55px;
+    padding-top: 53px;
+
+}
+.navbarSD ul li {
+    display: inline-block;
+    vertical-align:top;
+    font-size: 19px;
+    padding-left: 55px;
+    color: #ffffff;
+}
+.navbarSD {
+
+}
+#navMarker {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 7px;
+    height: 20%;
+    background-color: #be1330;
+    z-index: 7;
+}
+.logo {
+    width: auto;
+    height: 49px;
+    vertical-align:top;
+
+}
+.hamburger {
+    width: 43px;
+    height: auto;
+}
+footer {
+    position: fixed;
+    bottom: 47px;
+    left:0;
+    z-index: 4;
+    
+    width: 100%;
+}
+footer ul li {
+    display: inline;
+}
+.icon {
+    height: 17px;
+    width: auto;
+    padding-left: 17px;
+}
+footer ul li:first-child {
+    padding-left: 0;
+}
+
+.content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+#overlay {
+    
+    background-color: rgba(2, 2, 2, .71);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    
+}
+#fullpage {
+    z-index: 2;
+}
+.section {
+    overflow-y: auto;
+}
+/* global CSS
+ * --------------------------------------- */
+#fullpage{
+    font-family: arial,helvetica;
+    background-image: url("../img/body-bg.jpg");
+    position: relative;
+    min-height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border:solid 2px #020202;
+    color: #fff;
+}
+#fullpage {
+    overflow-x: hidden;
+}
 .section {
     background : -moz-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 44, 44, 1) 0%, rgba(2, 2, 2, 1) 100%);
     background : -webkit-radial-gradient(50% 50%, circle farthest-corner, rgba(44, 44, 44, 1) 0%, rgba(2, 2, 2, 1) 100%);

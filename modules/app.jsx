@@ -1,7 +1,7 @@
 'use strict';
 
 // Simple pure-React component so we don't have to remember
-// Bootstrap's classes
+// Bootstrap's classes--- All this stuff does not work and its old code that I'm deprecating 
 var BootstrapButton = React.createClass({
   render: function() {
     return (
@@ -190,14 +190,8 @@ var Page = React.createClass({
         </div>// end of Example
     );
       
-  },
-  openModal: function() {
-      console.log( this );
-    this.refs.modal.open();
-  },
-  closeModal: function() {
-    this.refs.modal.close();
   }
+
 });
 
 
